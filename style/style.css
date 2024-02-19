@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 :root {
     --principal-color-background: #E5E5E5;
+    --principal-font-text: #0A3871; 
+    --second-font-text: rgba(47, 47, 47, 0.945); 
+
+
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -24,4 +31,50 @@ body {
 .img-logo-header {
     height: auto;
     width: auto;
+}
+
+.content-text {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-content {
+    width: 100%;
+    height: 90%;
+    resize: none;
+    border: none;
+    background-color: var(--principal-color-background);
+    font-size: 1.5rem;
+    color: var(--principal-font-text);
+    padding-top: 10vh;
+}
+
+.input-content:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.input-content::placeholder {
+    font-size: 2rem;
+    color: var(--principal-font-text);
+    font-weight: 400;
+}
+
+.message-warning {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vh;
+}
+
+.message-warning p {
+    font-size: 0.8rem ;
+    font-weight: 300;
+    color: var(--second-font-text);
 }
