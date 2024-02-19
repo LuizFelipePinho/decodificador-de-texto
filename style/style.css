@@ -2,8 +2,10 @@
 
 :root {
     --principal-color-background: #E5E5E5;
-    --principal-font-text: #0A3871; 
+    /* --btn-background: #0a3871; */
+    --principal-font-text: #0a3871; 
     --second-font-text: rgba(47, 47, 47, 0.945); 
+
 
 
 }
@@ -77,4 +79,28 @@ body {
     font-size: 0.8rem ;
     font-weight: 300;
     color: var(--second-font-text);
+}
+
+.box-btn-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.btn-action {
+    padding: 5% 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.btn-action:first-child {
+    background-color: var(--principal-font-text);
+    border: none;
+    color: var(--principal-color-background);
+}
+
+.btn-action:last-child {
+    color:  var(--principal-font-text);
+    border: solid var(--principal-font-text) 1px;
 }
