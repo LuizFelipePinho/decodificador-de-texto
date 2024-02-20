@@ -10,37 +10,41 @@
     <header class="header">
       <img src="imgs/logo-alura.svg" class="img-logo-header" />
     </header>
-    <section class="content-text">
-      <textarea
-        type="text"
-        id="text-input"
-        name="text-input"
-        required
-        placeholder="Digite seu texto"
-        class="input-content"
-        spellcheck="true"
-      ></textarea>
-      <div class="message-warning">
-        <img src="imgs/icon-warning.svg" />
-        <p>Apenas letras minúsculas e sem acento.</p>
-      </div>
-      <section class="box-btn-actions">
-        <button class="btn-action">Criptografar</button>
-        <button class="btn-action">Descriptografar</button>
+    <main class="container">
+      <section class="content-text">
+        <textarea
+          type="text"
+          id="text-input"
+          name="text-input"
+          required
+          placeholder="Digite seu texto"
+          class="input-content"
+          spellcheck="true"
+        ></textarea>
+        <div class="message-warning">
+          <img src="imgs/icon-warning.svg" />
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <section class="box-btn-actions">
+          <button class="btn-action">Criptografar</button>
+          <button class="btn-action">Descriptografar</button>
+        </section>
       </section>
-    </section>
 
-    <section class="box-output-message">
-      <div class="output-default">
-        <p class="msg-default">Nenhuma mensagem encontrada</p>
-        <p class="msg-default">
-          Digite um texto que você deseja criptografar ou descriptografar.
-        </p>
-      </div>
-      <div class="output-encrip-decr desactive">
-        <p class="text-output"></p>
-        <button class="btn-action">Copiar</button>
-      </div>
-    </section>
+      <section class="box-output-message">
+        <!-- essa classe deve ganhar a classe desactive quando quiser mostrar o texto em output -->
+        <div class="output-default">
+          <img class="desactive" src="imgs/background-none.svg" />
+          <p class="msg-default-principal">Nenhuma mensagem encontrada</p>
+          <p class="msg-default-second">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+        <div class="output-encrip-decr desactive">
+          <p class="text-output"></p>
+          <button class="btn-action">Copiar</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

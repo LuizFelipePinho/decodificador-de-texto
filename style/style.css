@@ -123,13 +123,13 @@ body {
   width: 100%;
 }
 
-.msg-default:first-child {
+.msg-default-principal {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.msg-default:last-child {
+.msg-default-second {
   text-align: center;
   color: var(--second-font-text);
   font-size: 0.9rem;
@@ -168,5 +168,66 @@ body {
   .btn-action {
     flex: 1;
     padding: 25px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+    height: 90vh;
+    padding-bottom: 5%;
+    gap: 5vw;
+  }
+
+  .content-text {
+    height: 100%;
+    flex: 3;
+  }
+
+  .input-content,
+  .input-content::placeholder {
+    font-size: 2.5rem;
+  }
+
+  .text-output {
+    font-size: 1.5rem;
+  }
+
+  .msg-default-principal,
+  .msg-default-second {
+    padding: 0 15%;
+  }
+
+  .msg-default-principal {
+    font-size: 1.4rem;
+  }
+
+  .msg-default-second {
+    font-size: 1.1rem;
+  }
+
+  .box-output-message {
+    height: 100%;
+    flex: 1;
+    padding: 0;
+  }
+
+  .output-default img {
+    display: flex;
+  }
+
+  .output-encrip-decr {
+    height: 100%;
+    width: 100%;
+  }
+
+  .text-output {
+    display: flex;
+    align-items: flex-start;
+    line-height: 2rem;
+  }
+
+  .btn-action {
+    font-size: 1.1rem;
   }
 }
