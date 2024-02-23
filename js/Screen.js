@@ -53,6 +53,8 @@ export default class Screen {
       alert(
         "Digite apenas letras minusculas, sem acento ou sem caracteres especais"
       );
+      return false; 
     }
+    return true;
   };
 }

@@ -4,7 +4,10 @@ const screen = new Screen();
 
 function HandleCryptography(option) {
   const textInput = screen.getInputText();
-  screen.validRequirementsTextInput(textInput);
+  const valid = screen.validRequirementsTextInput(textInput);
+  if (!valid) {
+    return false;
+  }
   const cryptography = new Cryptography(textInput);
   let textOutput;
 
