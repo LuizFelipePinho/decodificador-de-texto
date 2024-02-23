@@ -2,7 +2,7 @@
 <p align="center">O projeto consiste em um encriptador de texto, ele é um desafio proposto no curso One da Oracle em parceria com a Alura.</p>
 
 ### Deploy do projeto
-https://luizfelipepinho.github.io/encriptador-de-texto/
+https://luizfelipepinho.github.io/decodificador-de-texto/
 
 ###  Rodando a aplicação localmente:
 
