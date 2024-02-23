@@ -1,8 +1,5 @@
 <h1 align="center">Encriptador de texto</h1>
-<p align="center">Projeto desenvolvido como desafio no curso One Next Education.</p>
-
-
-<h3>O projeto consiste em um encriptador de texto, ele é um desafio proposto no curso One da Oracle em parceria com a Alura.</h3>
+<p align="center">O projeto consiste em um encriptador de texto, ele é um desafio proposto no curso One da Oracle em parceria com a Alura.</p>
 
 ### Deploy do projeto
 https://luizfelipepinho.github.io/encriptador-de-texto/
