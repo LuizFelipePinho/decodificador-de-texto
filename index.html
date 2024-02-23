@@ -26,25 +26,27 @@
           <p>Apenas letras minúsculas e sem acento.</p>
         </div>
         <section class="box-btn-actions">
-          <button class="btn-action">Criptografar</button>
-          <button class="btn-action">Descriptografar</button>
+          <button class="btn-action" id="btn-cryptography">Criptografar</button>
+          <button class="btn-action" id="btn-decryptography">Descriptografar</button>
         </section>
       </section>
 
       <section class="box-output-message">
         <!-- essa classe deve ganhar a classe desactive quando quiser mostrar o texto em output -->
-        <div class="output-default">
+        <div class="output-default" id="output-default">
           <img class="desactive" src="imgs/background-none.svg" />
           <p class="msg-default-principal">Nenhuma mensagem encontrada</p>
           <p class="msg-default-second">
             Digite um texto que você deseja criptografar ou descriptografar.
           </p>
         </div>
-        <div class="output-encrip-decr desactive">
-          <p class="text-output"></p>
-          <button class="btn-action">Copiar</button>
+        <div class="output-encrip-decr desactive" id="output-encrip-decr">
+          <p class="text-output" id="text-output"></p>
+          <button class="btn-action" id="clipboardCopy">Copiar</button>
         </div>
       </section>
     </main>
+    <script src="./main.js" type="module"></script>
   </body>
+  
 </html>
