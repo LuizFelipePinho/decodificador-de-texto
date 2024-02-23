@@ -2,7 +2,6 @@
 
 :root {
   --principal-color-background: #e5e5e5;
-  /* --btn-background: #0a3871; */
   --principal-font-text: #0a3871;
   --second-font-text: rgba(47, 47, 47, 0.945);
 }
@@ -230,5 +229,12 @@ body {
 
   .btn-action {
     font-size: 1.1rem;
+  }
+}
+
+
+@media (min-width: 1500px) {
+  body {
+    padding: 0 8vw;
   }
 }
