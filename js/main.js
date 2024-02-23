@@ -1,5 +1,5 @@
-import Cryptography from "./js/Cryptography.js";
-import Screen from "./js/Screen.js";
+import Cryptography from "./Cryptography.js";
+import Screen from "./Screen.js";
 const screen = new Screen();
 
 function HandleCryptography(option) {
